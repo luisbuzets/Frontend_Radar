@@ -1,9 +1,26 @@
 body{
-   /* background: linear-gradient(#004ADD, #5DE0E6);*/
+   
     
 }
 .container{
     background-image: linear-gradient(0deg, rgba(0,74,221,1) 35%, rgba(93,224,230,1) 100%);
     height: 100vh;
     width: 100%;
+    animation: color 12s ease-in-out infinite;
+}
+
+@keyframes color{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+
+button{
+    
 }

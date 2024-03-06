@@ -1,0 +1,55 @@
+body{
+   margin: 0;
+   padding: 0;
+   line-height: 1.6;
+    
+}
+.container{
+    /*background-image: linear-gradient(0deg, rgba(0,74,221,1) 35%, rgba(93,224,230,1) 100%);*/
+    height: 100vh;
+    width: 100%;
+    animation: color 12s ease-in-out infinite;
+    background-image: url(../img/LogoR.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+
+.btn-block{
+    width: 100%;
+    height: 73px;
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 789px;
+    box-shadow: black;
+  }
+  .btn {
+    border: none; 
+    color: white; 
+    padding: 14px 28px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    background-color: #5DE0E6!important;
+  }
+  button{
+    
+  }
+
+  .primary {background-color: #e5ff00;} 
+  .primary:hover {background: #0b7dda;}
+  
+
+@keyframes color{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}

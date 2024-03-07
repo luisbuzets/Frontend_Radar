@@ -18,6 +18,7 @@ body{
 }
 
 
+
 .btn-block{
     width: 100%;
     height: 73px;
@@ -52,4 +53,69 @@ body{
     100%{
         background-position: 0 50%;
     }
+}
+
+#ocultar{
+    display: none;
+}
+
+.row{
+    justify-content: space-around;
+    align-items: center;
+
+}
+.tarjeta{
+    width: 250px;
+    
+}
+
+.card-title{
+    font-size: 20px;
+    font-weight:inherit;
+    margin-top: -19px;
+    margin-left: 43px;
+
+}
+
+.card-title-1{
+    font-size: 20px;
+    font-weight:inherit;
+    margin-top: -33px;
+    margin-left: 35px;
+
+}
+.menu{
+    width: 132px;
+    height: 132px;
+    box-shadow: 0 4px 8px 0 rgb(0,0,0,0.2),  0 6px 20px 0 rgb(0,0,0,0.19);
+    /*background-color: #ebca0f;*/
+    background: linear-gradient(to bottom, #f3a27d  0%, #f8c671 100%);
+    margin-top: 306px;
+    border-radius: 12px;
+
+    
+}
+.menu-2{
+    width: 132px;
+    height: 132px;
+    box-shadow: 0 4px 8px 0 rgb(0,0,0,0.2),  0 6px 20px 0 rgb(0,0,0,0.19);
+    background: linear-gradient(to bottom, #6BCAFA  0%, #43DCE1 100%);
+    margin-top: 306px;
+    border-radius: 12px;
+
+}    
+
+.menu:hover{
+    background: linear-gradient(to bottom, #fbaa84af  0%, #f7c368a6 100%);
+}
+.menu-2:hover{
+    background: linear-gradient(to bottom, #6bcafaad  0%, #43dce1a4 100%);
+}
+
+.col-1{
+    width: 42%;
+}    
+
+.container-2{
+    margin-right: 116px;
 }

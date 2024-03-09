@@ -2,6 +2,9 @@ body{
    margin: 0;
    padding: 0;
    line-height: 1.6;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   background: #F9F9F9;
+  
     
 }
 .container{
@@ -35,9 +38,6 @@ body{
     border-radius: 5px; 
     background-color: #5DE0E6!important;
   }
-  button{
-    
-  }
 
   .primary {background-color: #e5ff00;} 
   .primary:hover {background: #0b7dda;}
@@ -56,7 +56,14 @@ body{
 }
 
 #ocultar{
-    display: none;
+    display: flex;
+}
+
+#menu{
+    display: flex ;
+}
+#bienvenida{
+    display: flex ;
 }
 
 .row{
@@ -99,7 +106,7 @@ body{
     width: 132px;
     height: 132px;
     box-shadow: 0 4px 8px 0 rgb(0,0,0,0.2),  0 6px 20px 0 rgb(0,0,0,0.19);
-    background: linear-gradient(to bottom, #6BCAFA  0%, #43DCE1 100%);
+    background: linear-gradient(to bottom, #92b3f5  4%, #5de0e6 91%);
     margin-top: 306px;
     border-radius: 12px;
 
@@ -118,4 +125,26 @@ body{
 
 .container-2{
     margin-right: 116px;
+    margin-top: -364px;
+
+}
+
+.hola1{
+    margin-left: 42px;
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+.textoemp{
+    font-size: 14px;
+    margin-left: 24px;
+    margin-top: 31px;
+    width: 398px;
+}
+.col-2{
+    display: flex;
+    
+}
+.col-21{
+    display: flex;
 }

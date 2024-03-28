@@ -129,6 +129,42 @@ body{
 
 }
 
+.container-6{
+    margin-right: 116px;
+    margin-top: -364px;
+
+}
+.TiposViajes:hover{
+    background: linear-gradient(to bottom, #5DE0E6  0%, #004ADD 94%);
+}
+.TiposViajes2:hover{
+    background: linear-gradient(to bottom, #5DE0E6  0%, #004ADD 94%);
+}
+
+
+.TiposViajes{
+    width: 160px;
+    height: 71px;
+    box-shadow: 0 4px 8px 0 rgb(0,0,0,0.2),  0 6px 20px 0 rgb(0,0,0,0.19);
+    /*background-color: #ebca0f;*/
+    background: #FFFFFF;
+    margin-top: 306px;
+    border-radius: 12px;
+
+    
+}
+.TiposViajes2{
+    width: 160px;
+    height: 71px;
+    box-shadow: 0 4px 8px 0 rgb(0,0,0,0.2),  0 6px 20px 0 rgb(0,0,0,0.19);
+    background: #FFFFFF;
+    margin-top: 306px;
+    border-radius: 12px;
+
+}  
+
+
+
 .hola1{
     margin-left: 42px;
     margin-top: 50px;
@@ -147,4 +183,72 @@ body{
 }
 .col-21{
     display: flex;
+}
+/*#############################*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    padding: 10px 20px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+  
+    
+}
+
+.ctn{
+    padding: 8px 20px;
+    background-color: #5DE0E6;
+
+}
+
+.navbar ul {
+    flex: 1;
+    text-align: right;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin: 0 30px;
+}
+
+a {
+    text-decoration-skip: none;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+.mobile-list{
+    display: none;
+}
+
+@media only screen and (max-width: 800px) {
+    .navbar .desktop-list {
+        display: none;
+    }
+
+    .mobile-list{
+        background-color: #5DE0E6;
+        display: block;
+        color: whitesmoke;
+        position: fixed;
+        bottom: -16px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        padding: 20px;   
+    }
+    .mobile-list i {
+        font-size: 7vmin;
+        cursor: pointer;
+    }
+    .mobile-list li:hover i {
+        color: rgb(5,5,49);
+    }
 }
